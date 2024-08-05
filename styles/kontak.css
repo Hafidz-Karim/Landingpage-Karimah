@@ -1,0 +1,278 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #252424;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #078080;
+  color: white;
+}
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #232946;
+  gap: 0px;
+  width: 100%;
+}
+.container-contact h2 {
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  width: 100%;
+  color: #fffffe;
+}
+.container-contact p {
+  color: #fffffe;
+}
+.container-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container-hero .gambar-map {
+  width: 100%;
+  height: 100%;
+}
+.container-hero .gambar-map img {
+  width: 100%;
+  height: auto;
+}
+.container-hero .alamat {
+  width: 100%;
+  height: auto;
+}
+
+.container-hero .alamat p {
+  padding: 0px 10px;
+}
+.container-saran {
+  margin-top: 0px;
+  width: 100%;
+  padding: 0px;
+  margin-right: 20px;
+}
+.container-saran h3 {
+  margin-top: 20px;
+}
+.container-saran > form {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  padding: 10px;
+}
+.container-saran > form div {
+  padding: 0px 0px;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+}
+.container-saran > form div p {
+  padding: 5px;
+}
+.container-saran form div > input {
+  width: 100%;
+  padding: 7px;
+  color: #fffffe;
+}
+.container-saran form div > label {
+  color: #fffffe;
+}
+
+.container-saran form div > textarea {
+  width: 100%;
+  padding: 7px;
+}
+.container-saran form > a {
+  text-decoration: none;
+  background-color: #b8c1ec;
+  padding: 10px;
+  color: #232946;
+  width: 15%;
+  text-align: center;
+  border-radius: 4px;
+}
+.container-hubungi {
+  display: flex;
+  flex-direction: column;
+}
+.container-hubungi div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container-hubungi h3 {
+  margin: 5px;
+  color: #fffffe;
+  text-align: center;
+}
+.container-hubungi .column-hubungi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+.column-hubungi .card-hubungi {
+  margin: 0px 0px;
+  width: 60%;
+  margin-top: 20px;
+}
+.column-hubungi .card-hubungi div {
+  width: 100%;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+p:nth-child(3) {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  body {
+    padding: 0px 90px;
+  }
+  .container-keunggulan p {
+    font-size: larger;
+  }
+  .container-keunggulan > h3 {
+    font-size: larger;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(98, 99, 98);
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #078080;
+    color: white;
+  }
+  .container-hero {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    gap: 10px;
+    padding: 12.5px;
+    margin-bottom: 20px;
+  }
+  .container-hero h3 {
+    font-size: larger;
+  }
+  .container-hero div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-hero div .gambar-map {
+    width: 30%;
+    height: auto;
+  }
+  .container-hero div .alamat {
+    width: 70%;
+    height: auto;
+  }
+  .container-hero div .alamat p {
+    width: 100%;
+    font-size: large;
+  }
+  .container-saran form {
+    margin-right: 0px;
+  }
+  .container-saran form > a {
+    width: 100px;
+  }
+  .container-hubungi {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container-hubungi div .column-hubungi {
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    gap: 10px;
+  }
+  .container-hubungi div .column-hubungi .card-hubungi {
+    width: 50%;
+    display: flex;
+  }
+}

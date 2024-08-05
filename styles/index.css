@@ -1,0 +1,589 @@
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+.container-beranda {
+  padding: 0px 0px 10px 0px;
+  background-color: #232946;
+}
+.keunggulan-product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.keunggulan-product .text {
+  font-size: small;
+  width: 70%;
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.text h2 {
+  color: #fffffe;
+  padding: 20px 0px 3px 0px;
+}
+.text p {
+  margin-bottom: 10px;
+  font-size: small;
+  color: #fdf9f9;
+}
+.statistik .container-statistik {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: #232946;
+  gap: 10px;
+}
+.container-statistik .div-card-1 {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.div-card-1 div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.div-card-1 > h2 {
+  margin: 0px 0px 5px 0px;
+  color: #fffffe;
+}
+.container-statistik .div-card-1 p {
+  font-size: large;
+}
+.div-card-1 h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+}
+.div-card-1 p {
+  padding: 0px;
+  font-size: small;
+  margin: 0px;
+}
+.div-card-1 .card-satu {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #ebebeb;
+  padding: 10px;
+}
+.div-card-1 .card-dua {
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #ebebeb;
+  gap: 0px;
+}
+
+.div-card-1 .card-tiga {
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #ebebeb;
+  gap: 0px;
+}
+.div-card-1 .card-empat {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #ebebeb;
+  gap: 0px;
+  padding: 10px;
+}
+.deskripsi-product {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0px 10px;
+}
+.deskripsi-product h2 {
+  color: #fdf9f9;
+}
+.gambar-product-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.deskripsi-product .gambar-product-1 div {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.deskripsi-product .gambar-product-1 div > div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffffe;
+}
+.gambar-product-1 div img {
+  width: 50%;
+  height: 50%;
+}
+.pelatihan-bbq-karimah {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.pelatihan-bbq-karimah .pelatihan-bbq-1 {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.pelatihan-bbq-karimah .pelatihan-bbq-1 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  padding: 0px;
+  background-color: #fffffe;
+  border-radius: 5px;
+}
+.pelatihan-bbq-karimah .pelatihan-bbq-1 .card p {
+  color: #131212;
+}
+.pelatihan-bbq-karimah .pelatihan-2 .card p {
+  color: #131212;
+}
+.pelatihan-bbq-karimah .pelatihan-3 .card p {
+  color: #131212;
+}
+.pelatihan-bbq-karimah .pelatihan-bbq-1 img {
+  width: 80%;
+  height: auto;
+}.pelatihan-bbq-karimah .pelatihan-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pelatihan-bbq-karimah .pelatihan-2 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  background-color: #fffffe;
+  border-radius: 5px;
+}
+.pelatihan-bbq-karimah .pelatihan-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pelatihan-bbq-karimah .pelatihan-3 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #fffffe;
+  border-radius: 5px;
+}
+
+.pelatihan-bbq-karimah .pelatihan-2 img {
+  width: 80%;
+  height: auto;
+}
+.pelatihan-bbq-karimah .pelatihan-3 img {
+  width: 80%;
+  height: auto;
+}
+.testimoni {
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimoni > h2 {
+  text-align: center;
+  color: #fffffe;
+}
+.testimoni .container-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  margin: 0px;
+}
+.container-card .card {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 20px;
+  padding: 10px 15px 10px 15px;
+  background-color: #fffffe;
+  border-radius: 5px;
+}
+
+.card h4 {
+  margin: 2px;
+}
+.container .card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card img {
+  width: 50px;
+  height: auto;
+}
+.container-pertanyaan {
+  padding: 4px 10px 20px 10px;
+  margin-top: 20px;
+}
+.pertanyaan {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion {
+  background-color: #dedcda;
+  color: #131212;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  color: #fffffe;
+  background-color: #232946;
+}
+
+.panel {
+  padding: 0px 10px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: large;
+}
+.kerja-sama {
+  padding-top: 20px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.kerja-sama h3 {
+  color: #fffffe;
+}
+.kerja-sama .logo {
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.kerja-sama .logo .logo-1 {
+  display: flex;
+  gap: 15px;
+  width: 50%;
+  height: 50%;
+}
+.kerja-sama .logo-1 img {
+  width: 45%;
+  height: auto;
+}
+.kerja-sama .logo .logo-2 {
+  display: flex;
+  gap: 15px;
+  width: 50%;
+  height: 50%;
+}
+.kerja-sama .logo-2 img {
+  width: 45%;
+  height: auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #131212;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  right: 0px;
+  background-color: #1d1c1c;
+  top: 0px;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #078080;
+  color: white;
+}
+@media (min-width: 768px) {
+  body {
+    padding: 0px 90px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(98, 99, 98);
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #078080;
+    color: white;
+  }
+  /* Keunggulan Dekstop */
+  .keunggulan-product {
+    width: 100%;
+    height: 100%;
+  }
+  .keunggulan-product .text {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .text h2 {
+    font-size: x-large;
+  }
+  .text p {
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    width: 50%;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+
+  .container-statistik {
+    display: flex;
+  }
+  .div-card-1 div {
+    flex-direction: row;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .div-card-1 div .card-satu div {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-card-1 div .card-dua div {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-card-1 div .card-tiga div {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-card-1 div .card-empat div {
+    display: flex;
+    flex-direction: column;
+  }
+  .gambar-product-1 {
+    gap: 10px;
+  }
+  .deskripsi-product .gambar-product-1 div {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .deskripsi-product .gambar-product-1 div > div {
+    background-color: rgb(237, 236, 233);
+    width: 40%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .deskripsi-product .gambar-product-1 div div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deskripsi-product .gambar-product-1 div div img {
+    width: 50%;
+    height: auto;
+  }
+  .deskripsi-product .gambar-product-1 div div p {
+    margin: 0%;
+  }
+  .pelatihan-bbq-karimah {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .pelatihan-bbq-karimah .pelatihan-bbq-1 {
+    width: 30%;
+    height: auto;
+    flex-direction: row;
+  }
+  .pelatihan-bbq-karimah .pelatihan-2 {
+    width: 30%;
+    height: auto;
+    flex-direction: row;
+  }
+  .pelatihan-bbq-karimah .pelatihan-3 {
+    width: 30%;
+    height: auto;
+    flex-direction: row;
+  }
+  .pelatihan-bbq-karimah .pelatihan-bbq-1 .card {
+    width: 100%;
+    height: auto;
+  }
+  .pelatihan-bbq-karimah .pelatihan-2 .card {
+    width: 100%;
+    height: auto;
+  }
+  .pelatihan-bbq-karimah .pelatihan-3 .card {
+    width: 100%;
+    height: auto;
+  }
+  .testimoni {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimoni .container-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+    width: 70%;
+  }
+  .testimoni .container-card .card {
+    width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .pertanyaan {
+    font-size: xx-large;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .kerja-sama .logo {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .kerja-sama .logo .logo-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+  }
+  .kerja-sama .logo .logo-1 img {
+    width: 20%;
+    height: 50%;
+  }
+  .kerja-sama .logo .logo-2 {
+    width: 100%;
+    height: auto;
+    justify-content: left;
+    display: flex;
+    gap: 30px;
+  }
+  .kerja-sama .logo .logo-2 img {
+    width: 20%;
+    height: 50%;
+  }
+}
